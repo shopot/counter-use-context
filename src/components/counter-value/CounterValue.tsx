@@ -7,7 +7,7 @@ export const CounterValue = (): ReactElement => {
 
   return (
     <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mt-8 w-48 text-center">
-      <span className="text-3xl font-bold">{value}</span>
+      <span className="text-3xl font-bold text-gray-700">{value}</span>
     </div>
   );
 };
