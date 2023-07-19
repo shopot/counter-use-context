@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import { CounterContext, CounterDispatchContext } from './context.ts';
+import { CounterContext, CounterDispatchContext } from './contexts.ts';
 import { decrementAction, incrementAction } from './actions.ts';
 
 export const useCounterStore = () => {

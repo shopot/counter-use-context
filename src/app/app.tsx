@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 
-import './App.css';
+import './app.css';
 
 import { CounterValue, CounterForm } from '../components';
 

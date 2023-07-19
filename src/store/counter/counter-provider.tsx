@@ -1,7 +1,7 @@
 import { ReactNode, useReducer } from 'react';
 
-import { counterReducer } from './reducer.ts';
-import { CounterContext, CounterDispatchContext } from './context.ts';
+import { counterReducer } from './counter-reducer.ts';
+import { CounterContext, CounterDispatchContext } from './contexts.ts';
 
 const initialCounter = 0;
 
