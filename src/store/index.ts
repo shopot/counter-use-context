@@ -1,2 +1,2 @@
-export { useCounterStore } from './counter/hooks.ts';
-export { CounterProvider } from './counter/provider.tsx';
+export { StoreProvider } from './StoreProvider.tsx';
+export { useStore } from './useStore.ts';

@@ -1,10 +1,10 @@
 import { ReactElement } from 'react';
 
 import { Button } from '../../ui';
-import { useCounterStore } from '../../store';
+import { useStore } from '../../store';
 
 export const CounterForm = (): ReactElement => {
-  const { increment, decrement } = useCounterStore();
+  const { increment, decrement } = useStore().counter;
 
   return (
     <div className="flex flex-row gap-3 mt-4">
