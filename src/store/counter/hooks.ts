@@ -17,7 +17,7 @@ export const useCounterStore = () => {
   };
 
   return {
-    state,
+    getState: () => state,
     increment,
     decrement,
   };
